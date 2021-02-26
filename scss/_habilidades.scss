@@ -1,0 +1,53 @@
+.habilidades {
+	.h2-habilidades {
+		font-family: $titulos;
+		text-transform: uppercase;
+		text-align: center;
+		padding-bottom: $em;
+	}
+	.ul-habilidades {
+		list-style: none;
+		margin: 0 auto;
+		padding: 0;
+		//border: 1px solid;
+		width: 30%;
+	}
+	.li-habilidades {
+		font-family: $textos;
+		text-transform: capitalize;
+		font-size: $em;
+		&:hover {
+			color: #00b8d4;
+		}
+	}
+	.icon {
+		padding-right: 15px;
+	}
+}
+
+.experiencia {
+	.h2-experiencia {
+		font-family: $titulos;
+		text-transform: uppercase;
+		text-align: center;
+		padding-bottom: $em;
+	}
+	.ul-experiencia {
+		list-style: none;
+		margin: 0 auto;
+		padding: 0;
+		//border: 1px solid;
+		width: 30%;
+	}
+	.li-experiencia {
+		font-family: $textos;
+		text-transform: capitalize;
+		font-size: $em;
+		&:hover {
+			color: #00b8d4;
+		}
+	}
+	.icon {
+		padding-right: 15px;
+	}
+}

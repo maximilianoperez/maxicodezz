@@ -1,0 +1,26 @@
+.contacto {
+	.h2-contacto {
+		font-family: $titulos;
+		text-transform: uppercase;
+		text-align: center;
+		padding-bottom: 2*$em;
+	}
+	.ul-contacto {
+		list-style: none;
+		margin: 0 auto;
+		padding: 0;
+		//border: 1px solid;
+		width: 10%;
+		text-align: center;
+	}
+	.li-contacto {
+		font-size: 2.5*$em;
+	}
+	.a-contacto {
+		text-decoration: none;
+		color: $text-color;
+		&:hover {
+			color: #00b8d4;
+		}
+	}
+}

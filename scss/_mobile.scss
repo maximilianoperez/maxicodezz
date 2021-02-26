@@ -1,0 +1,102 @@
+@media screen and (max-width: 900px) {
+	.header {
+		//height: 3*$em;
+		.h1-header {
+			.a-header {
+				font-size: 60%;
+			}
+		}
+	}
+  .foto-perfil {
+    .perf {
+      height: auto;
+      width: 33.3%;
+      border-radius: 50%;
+    }
+  }
+
+  .texto-presentacion {
+    width: 90%;
+    text-align: left;
+  }
+
+  .habilidades {
+    .h2-habilidades {
+    }
+    .ul-habilidades {
+      margin: 0 auto;
+      padding: 0;
+      width: 90%;
+    }
+    .li-habilidades {
+      font-size: 16px;
+    }
+    .icon {
+      padding-right: 10px;
+    }
+  }
+
+  .experiencia {
+    .h2-experiencia {
+    }
+    .ul-experiencia {
+      margin: 0 auto;
+      padding: 0;
+      width: 90%;
+    }
+    .li-experiencia {
+      font-size: 16px;
+    }
+    .icon {
+      padding-right: 10px;
+    }
+  }
+
+  .contacto {
+    .h2-contacto {
+      font-family: $titulos;
+      text-transform: uppercase;
+      text-align: center;
+      padding-bottom: $em;
+      margin: 0 auto;
+    }
+    .ul-contacto {
+      list-style: none;
+      margin: 0 auto;
+      padding: 0;
+      //border: 1px solid;
+      width: 10%;
+      text-align: center;
+    }
+    .li-contacto {
+      font-size: 2.5*$em;
+    }
+    .a-contacto {
+      text-decoration: none;
+      color: $text-color;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

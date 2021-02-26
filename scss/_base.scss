@@ -1,0 +1,132 @@
+/*Colores*/
+$color-base : #e0f7fa;
+$color-resaltado: #84ffff ;
+$text-color: #212121;
+
+/*Fonts*/
+$titulos : 'Coda Caption', sans-serif;
+$textos : 'Roboto', sans-serif;
+
+/*Herramientas*/
+$em: 20px;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	max-height: 100%;
+}
+.body {
+	background-color: $color-base;
+}
+
+.logo-index {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	.img {
+		height: 80vh;
+		width: 100%;
+	}
+}
+
+.header {
+	height: 8*$em;
+	margin: 0;
+	padding: 0;
+	.h1-header {
+		font-family: $titulos;
+		font-size: 3*$em;
+		text-align: center;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 0;
+		padding-top: 2*$em;
+	}
+	.a-header {
+		text-decoration: none;
+		color: $text-color;
+	}
+}
+
+
+
+.nav {
+	height: 3*$em;
+	text-transform: uppercase;
+	position: relative;
+	.ul-nav {
+		list-style: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.li-nav {
+		display: inline-block;
+		padding: 10px 10px;
+		&:hover {
+			border-radius: 10px;
+			background-color: #80deea;
+		}
+	}
+	.a-nav {
+		text-decoration: none;
+		color: $text-color;
+		font-family: $textos;
+	}
+}
+
+
+
+.foto-perfil {
+	text-align: center;
+	padding: $em;
+	.perf {
+		height: auto;
+		width: 33.3%;
+		border-radius: 50%;
+	}
+}
+
+.texto-presentacion {
+	width: 60%;
+	.p-pres {
+		font-family: $textos;
+		font-size: 18px;
+		color: $text-color;
+	}
+	span.name {
+		font-weight: bolder;
+		text-transform: capitalize;
+	}
+}
+
+.foot {
+	margin: 0;
+	width: 100%;
+	height: 1.5*$em;
+	bottom: 0;
+	left: 0;
+	padding-right: 10px;
+	.p-foot {
+		font-family: $textos;
+		font-weight: bold;
+		text-align: right;
+		margin: 0;
+	}
+	.a-foot {
+		text-decoration: none;
+		color: $text-color;
+		&:hover {
+			color: #00b8d4;
+		}
+	}
+}
+
+#btn-menu {
+	display: none;
+
+}
+.fa-bars {
+	display: none;
+}

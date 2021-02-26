@@ -1,0 +1,207 @@
+/*Colores*/
+/*Fonts*/
+/*Herramientas*/
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  max-height: 100%; }
+
+.body {
+  background-color: #e0f7fa; }
+
+.logo-index {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0; }
+  .logo-index .img {
+    height: 80vh;
+    width: 100%; }
+
+.header {
+  height: 160px;
+  margin: 0;
+  padding: 0; }
+  .header .h1-header {
+    font-family: "Coda Caption", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px; }
+  .header .a-header {
+    text-decoration: none;
+    color: #212121; }
+
+.nav {
+  height: 60px;
+  text-transform: uppercase;
+  position: relative; }
+  .nav .ul-nav {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0; }
+  .nav .li-nav {
+    display: inline-block;
+    padding: 10px 10px; }
+    .nav .li-nav:hover {
+      border-radius: 10px;
+      background-color: #80deea; }
+  .nav .a-nav {
+    text-decoration: none;
+    color: #212121;
+    font-family: "Roboto", sans-serif; }
+
+.foto-perfil {
+  text-align: center;
+  padding: 20px; }
+  .foto-perfil .perf {
+    height: auto;
+    width: 33.3%;
+    border-radius: 50%; }
+
+.texto-presentacion {
+  width: 60%; }
+  .texto-presentacion .p-pres {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #212121; }
+  .texto-presentacion span.name {
+    font-weight: bolder;
+    text-transform: capitalize; }
+
+.foot {
+  margin: 0;
+  width: 100%;
+  height: 30px;
+  bottom: 0;
+  left: 0;
+  padding-right: 10px; }
+  .foot .p-foot {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align: right;
+    margin: 0; }
+  .foot .a-foot {
+    text-decoration: none;
+    color: #212121; }
+    .foot .a-foot:hover {
+      color: #00b8d4; }
+
+#btn-menu {
+  display: none; }
+
+.fa-bars {
+  display: none; }
+
+.habilidades .h2-habilidades {
+  font-family: "Coda Caption", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px; }
+
+.habilidades .ul-habilidades {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 30%; }
+
+.habilidades .li-habilidades {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  font-size: 20px; }
+  .habilidades .li-habilidades:hover {
+    color: #00b8d4; }
+
+.habilidades .icon {
+  padding-right: 15px; }
+
+.experiencia .h2-experiencia {
+  font-family: "Coda Caption", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px; }
+
+.experiencia .ul-experiencia {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 30%; }
+
+.experiencia .li-experiencia {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  font-size: 20px; }
+  .experiencia .li-experiencia:hover {
+    color: #00b8d4; }
+
+.experiencia .icon {
+  padding-right: 15px; }
+
+.contacto .h2-contacto {
+  font-family: "Coda Caption", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 40px; }
+
+.contacto .ul-contacto {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 10%;
+  text-align: center; }
+
+.contacto .li-contacto {
+  font-size: 50px; }
+
+.contacto .a-contacto {
+  text-decoration: none;
+  color: #212121; }
+  .contacto .a-contacto:hover {
+    color: #00b8d4; }
+
+@media screen and (max-width: 900px) {
+  .header .h1-header .a-header {
+    font-size: 60%; }
+  .foto-perfil .perf {
+    height: auto;
+    width: 33.3%;
+    border-radius: 50%; }
+  .texto-presentacion {
+    width: 90%;
+    text-align: left; }
+  .habilidades .ul-habilidades {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%; }
+  .habilidades .li-habilidades {
+    font-size: 16px; }
+  .habilidades .icon {
+    padding-right: 10px; }
+  .experiencia .ul-experiencia {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%; }
+  .experiencia .li-experiencia {
+    font-size: 16px; }
+  .experiencia .icon {
+    padding-right: 10px; }
+  .contacto .h2-contacto {
+    font-family: "Coda Caption", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 auto; }
+  .contacto .ul-contacto {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 10%;
+    text-align: center; }
+  .contacto .li-contacto {
+    font-size: 50px; }
+  .contacto .a-contacto {
+    text-decoration: none;
+    color: #212121; } }
