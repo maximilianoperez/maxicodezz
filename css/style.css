@@ -20,7 +20,7 @@ html {
     width: 100%; }
 
 .header {
-  height: 160px;
+  height: 150px;
   margin: 0;
   padding: 0; }
   .header .h1-header {
@@ -59,7 +59,7 @@ html {
   padding: 20px; }
   .foto-perfil .perf {
     height: auto;
-    width: 33.3%;
+    width: 20%;
     border-radius: 50%; }
 
 .texto-presentacion {
@@ -74,6 +74,7 @@ html {
 
 .foot {
   margin: 0;
+  margin-top: 12px;
   width: 100%;
   height: 30px;
   bottom: 0;
@@ -90,11 +91,52 @@ html {
     .foot .a-foot:hover {
       color: #00b8d4; }
 
-#btn-menu {
+.menu {
+  background-color: #e0f7fa;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #84ffff; }
+
+.logo {
+  padding: 0; }
+
+.menuItems {
+  display: flex;
+  list-style: none;
+  margin: 0; }
+
+.menuItems li {
+  border-radius: 3px;
+  margin: 0 5px; }
+
+.menuItems li a {
+  font-family: "Coda Caption", sans-serif;
+  padding: 7px 13px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  text-transform: uppercase;
+  color: #212121; }
+
+.menuItems li:hover {
+  background-color: #84ffff; }
+
+.btnMenu {
+  margin-right: 30px;
+  font-size: 25px;
+  color: #212121;
+  cursor: pointer;
   display: none; }
 
-.fa-bars {
-  display: none; }
+ul.show {
+  top: 65px; }
+
+.mcodezz {
+  height: 120px;
+  padding-top: 10px; }
 
 .habilidades .h2-habilidades {
   font-family: "Coda Caption", sans-serif;
@@ -106,68 +148,67 @@ html {
   list-style: none;
   margin: 0 auto;
   padding: 0;
-  width: 30%; }
+  width: 33.3%; }
 
 .habilidades .li-habilidades {
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
-  font-size: 20px; }
+  font-size: 18px; }
   .habilidades .li-habilidades:hover {
     color: #00b8d4; }
 
 .habilidades .icon {
   padding-right: 15px; }
 
-.experiencia .h2-experiencia {
-  font-family: "Coda Caption", sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  padding-bottom: 20px; }
+.experiencia {
+  padding-bottom: 15px; }
+  .experiencia .h2-experiencia {
+    font-family: "Coda Caption", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px; }
+  .experiencia .ul-experiencia {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 33.3%; }
+  .experiencia .li-experiencia {
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    font-size: 18px; }
+    .experiencia .li-experiencia:hover {
+      color: #00b8d4; }
+  .experiencia .icon {
+    padding-right: 15px; }
 
-.experiencia .ul-experiencia {
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-  width: 30%; }
-
-.experiencia .li-experiencia {
-  font-family: "Roboto", sans-serif;
-  text-transform: capitalize;
-  font-size: 20px; }
-  .experiencia .li-experiencia:hover {
-    color: #00b8d4; }
-
-.experiencia .icon {
-  padding-right: 15px; }
-
-.contacto .h2-contacto {
-  font-family: "Coda Caption", sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  padding-bottom: 40px; }
-
-.contacto .ul-contacto {
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-  width: 10%;
-  text-align: center; }
-
-.contacto .li-contacto {
-  font-size: 50px; }
-
-.contacto .a-contacto {
-  text-decoration: none;
-  color: #212121; }
-  .contacto .a-contacto:hover {
-    color: #00b8d4; }
+.contacto {
+  height: 73vh;
+  padding: 0; }
+  .contacto .h2-contacto {
+    font-family: "Coda Caption", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 40px; }
+  .contacto .ul-contacto {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 10%;
+    text-align: center; }
+  .contacto .li-contacto {
+    font-size: 50px; }
+  .contacto .a-contacto {
+    text-decoration: none;
+    color: #212121; }
+    .contacto .a-contacto:hover {
+      color: #00b8d4; }
 
 @media screen and (max-width: 900px) {
   .header .h1-header .a-header {
     font-size: 60%; }
   .foto-perfil .perf {
     height: auto;
-    width: 33.3%;
+    width: 40%;
     border-radius: 50%; }
   .texto-presentacion {
     width: 90%;
@@ -204,4 +245,51 @@ html {
     font-size: 50px; }
   .contacto .a-contacto {
     text-decoration: none;
-    color: #212121; } }
+    color: #212121; }
+  .contacto {
+    height: 100vh; } }
+
+@media screen and (max-width: 900px) and (max-width: 899px) {
+  .logo {
+    font-size: 30px;
+    padding-left: 35px; }
+  .menuItems li a {
+    font-size: 16px; } }
+
+@media screen and (max-width: 900px) and (max-width: 768px) {
+  .menu {
+    height: 65px; }
+  .btnMenu {
+    display: inline-flex; }
+  .menuItems {
+    position: fixed;
+    width: 100%;
+    height: calc(100%- 65px);
+    background-color: #414141;
+    top: -100vh;
+    text-align: center;
+    transition: all .2s;
+    flex-direction: column; }
+  .menuItems li {
+    margin: 30px 0 0 0;
+    line-height: 30px; }
+  .menuItems li:hover {
+    background-color: none; }
+  .menuItems li a {
+    font-size: 20px;
+    color: white;
+    font-weight: bold; }
+  .menuItems li a:hover {
+    color: red; }
+  .logo {
+    font-size: 25px;
+    padding-left: 35px; }
+  ul.menuItems.show {
+    padding: 0; } }
+
+@media screen and (max-width: 900px) and (max-width: 899px) and (orientation: landscape) {
+  .menuItems li {
+    margin: 5px 0 0 0; }
+  .menuItems {
+    overflow: scroll;
+    height: calc(100% - 65px); } }

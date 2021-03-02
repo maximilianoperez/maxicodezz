@@ -32,7 +32,7 @@ html {
 }
 
 .header {
-	height: 8*$em;
+	height: 7.5*$em;
 	margin: 0;
 	padding: 0;
 	.h1-header {
@@ -83,7 +83,7 @@ html {
 	padding: $em;
 	.perf {
 		height: auto;
-		width: 33.3%;
+		width: 20%;
 		border-radius: 50%;
 	}
 }
@@ -103,6 +103,7 @@ html {
 
 .foot {
 	margin: 0;
+	margin-top: 12px;
 	width: 100%;
 	height: 1.5*$em;
 	bottom: 0;
@@ -123,10 +124,55 @@ html {
 	}
 }
 
-#btn-menu {
-	display: none;
+
+//responisve menu
+.menu {
+	background-color: #e0f7fa;
+	height: 75px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #84ffff;
 
 }
-.fa-bars {
+.logo {
+	padding: 0;
+}
+.menuItems {
+	display: flex;
+	list-style: none;
+	margin: 0;
+}
+.menuItems li {
+	border-radius: 3px;
+	margin: 0 5px;
+}
+.menuItems li a {
+	font-family: $titulos;
+	padding: 7px 13px;
+	text-decoration: none;
+	font-size: 18px;
+	display: block;
+	text-transform: uppercase;
+	color: $text-color;
+}
+.menuItems li:hover {
+	background-color: #84ffff;
+}
+.btnMenu {
+	margin-right: 30px;
+	font-size: 25px;
+	color: $text-color;
+	cursor: pointer;
 	display: none;
+}
+ul.show {
+	top: 65px;
+}
+
+
+.mcodezz {
+	height: 120px;
+	padding-top: 10px;
 }

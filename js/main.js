@@ -1,12 +1,9 @@
-$(document).ready(function(){
-    $("#btn-abrir-menu").click(function(){
-        if($(this).hasClass('open')){
-            $(this).removeClass('open');
-            $("#menu li:not(.logo)").removeClass('open');
-        }
-        else{
-            $(this).addClass('open');
-            $("#menu li:not(.logo)").addClass('open');
-        }
-    })
-})
+addEventListener('DOMContentLoaded' ,() => {
+  const btnMenu = document.querySelector('.btnMenu')
+  if(btnMenu) {
+  	btnMenu.addEventListener('click' ,() => {
+  	  const menuItems = document.querySelector('.menuItems')
+  	  menuItems.classList.toggle('show')
+  	});
+  }
+});

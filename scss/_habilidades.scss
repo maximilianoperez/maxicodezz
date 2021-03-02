@@ -10,12 +10,12 @@
 		margin: 0 auto;
 		padding: 0;
 		//border: 1px solid;
-		width: 30%;
+		width: 33.3%;
 	}
 	.li-habilidades {
 		font-family: $textos;
 		text-transform: capitalize;
-		font-size: $em;
+		font-size: 18px;
 		&:hover {
 			color: #00b8d4;
 		}
@@ -26,6 +26,7 @@
 }
 
 .experiencia {
+	padding-bottom: 15px;
 	.h2-experiencia {
 		font-family: $titulos;
 		text-transform: uppercase;
@@ -37,12 +38,12 @@
 		margin: 0 auto;
 		padding: 0;
 		//border: 1px solid;
-		width: 30%;
+		width: 33.3%;
 	}
 	.li-experiencia {
 		font-family: $textos;
 		text-transform: capitalize;
-		font-size: $em;
+		font-size: 18px;
 		&:hover {
 			color: #00b8d4;
 		}
