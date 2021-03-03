@@ -89,8 +89,11 @@ html {
 }
 
 .texto-presentacion {
-	width: 60%;
+	padding: 0;
+	height: 100%;
+	width: 80vw;
 	.p-pres {
+		text-align: center;
 		font-family: $textos;
 		font-size: 18px;
 		color: $text-color;
@@ -105,7 +108,7 @@ html {
 	margin: 0;
 	margin-top: 12px;
 	width: 100%;
-	height: 1.5*$em;
+	height: auto;
 	bottom: 0;
 	left: 0;
 	padding-right: 10px;
@@ -133,11 +136,11 @@ html {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-bottom: 1px solid #84ffff;
+	border-bottom: 1px solid $text-color;
 
 }
 .logo {
-	padding: 0;
+	padding-left: 30px;
 }
 .menuItems {
 	display: flex;
@@ -173,6 +176,5 @@ ul.show {
 
 
 .mcodezz {
-	height: 120px;
-	padding-top: 10px;
+	height: 60px;
 }

@@ -53,10 +53,12 @@
   }
 
   .contacto {
+    height: 100vh;
     .h2-contacto {
       font-family: $titulos;
       text-transform: uppercase;
       text-align: center;
+      padding-top: $em;
       padding-bottom: $em;
       margin: 0 auto;
     }
@@ -76,62 +78,57 @@
       color: $text-color;
     }
   }
-  .contacto {
-    height: 100vh;
-  }
 
-  //menu resp
-  @media screen and (max-width: 899px) {
   .logo {
-    font-size: 30px;
-    padding-left: 35px;
+    padding-left: 30px;
   }
   .menuItems li a {
     font-size: 16px;
   }
-}
-@media screen and (max-width: 768px) {
-  .menu {
-    height: 65px;
-  }
-  .btnMenu {
-    display: inline-flex;
-  }
-  .menuItems {
-    position: fixed;
-    width: 100%;
-    height: calc(100%- 65px);
-    background-color: #414141;
-    top: -100vh;
-    text-align: center;
-    transition: all .2s;
-    flex-direction: column;
-  }
-  .menuItems li {
-    margin: 30px 0 0 0;
-    line-height: 30px;
-  }
-  .menuItems li:hover {
-    background-color: none;
-  }
-  .menuItems li a {
-    font-size: 20px;
-    color: white;
-    font-weight: bold;
-  }
-  .menuItems li a:hover {
-    color: red;
-  }
-  .logo {
-    font-size: 25px;
-    padding-left: 35px;
-  }
-  ul.menuItems.show {
-    padding: 0;
-  }
-}
 
-@media screen and (max-width: 899px) and (orientation: landscape) {
+  //menu resp
+  @media screen and (max-width: 768px) {
+    .menu {
+     height: 65px;
+    }
+    .btnMenu {
+      display: inline-flex;
+    }
+    .menuItems {
+      position: fixed;
+      width: 100%;
+      height: calc(100%- 65px);
+      background-color: #414141;
+      top: -100vh;
+      text-align: center;
+      transition: all .2s;
+      flex-direction: column;
+    }
+    .menuItems li {
+      margin: 30px 0 0 0;
+      line-height: 30px;
+    }
+    .menuItems li:hover {
+      background-color: none;
+    }
+    .menuItems li a {
+      font-size: 20px;
+      color: white;
+      font-weight: bold;
+    }
+    .menuItems li a:hover {
+      color: #fff;
+    }
+    .logo {
+      font-size: 25px;
+      padding-left: 30px;
+    }
+    ul.menuItems.show {
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: 899px) and (orientation: landscape) {
   .menuItems li {
     margin: 5px 0 0 0;
   }

@@ -63,8 +63,11 @@ html {
     border-radius: 50%; }
 
 .texto-presentacion {
-  width: 60%; }
+  padding: 0;
+  height: 100%;
+  width: 80vw; }
   .texto-presentacion .p-pres {
+    text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     color: #212121; }
@@ -76,7 +79,7 @@ html {
   margin: 0;
   margin-top: 12px;
   width: 100%;
-  height: 30px;
+  height: auto;
   bottom: 0;
   left: 0;
   padding-right: 10px; }
@@ -98,10 +101,10 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #84ffff; }
+  border-bottom: 1px solid #212121; }
 
 .logo {
-  padding: 0; }
+  padding-left: 30px; }
 
 .menuItems {
   display: flex;
@@ -135,8 +138,7 @@ ul.show {
   top: 65px; }
 
 .mcodezz {
-  height: 120px;
-  padding-top: 10px; }
+  height: 60px; }
 
 .habilidades .h2-habilidades {
   font-family: "Coda Caption", sans-serif;
@@ -229,30 +231,28 @@ ul.show {
     font-size: 16px; }
   .experiencia .icon {
     padding-right: 10px; }
-  .contacto .h2-contacto {
-    font-family: "Coda Caption", sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    padding-bottom: 20px;
-    margin: 0 auto; }
-  .contacto .ul-contacto {
-    list-style: none;
-    margin: 0 auto;
-    padding: 0;
-    width: 10%;
-    text-align: center; }
-  .contacto .li-contacto {
-    font-size: 50px; }
-  .contacto .a-contacto {
-    text-decoration: none;
-    color: #212121; }
   .contacto {
-    height: 100vh; } }
-
-@media screen and (max-width: 900px) and (max-width: 899px) {
+    height: 100vh; }
+    .contacto .h2-contacto {
+      font-family: "Coda Caption", sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin: 0 auto; }
+    .contacto .ul-contacto {
+      list-style: none;
+      margin: 0 auto;
+      padding: 0;
+      width: 10%;
+      text-align: center; }
+    .contacto .li-contacto {
+      font-size: 50px; }
+    .contacto .a-contacto {
+      text-decoration: none;
+      color: #212121; }
   .logo {
-    font-size: 30px;
-    padding-left: 35px; }
+    padding-left: 30px; }
   .menuItems li a {
     font-size: 16px; } }
 
@@ -280,10 +280,10 @@ ul.show {
     color: white;
     font-weight: bold; }
   .menuItems li a:hover {
-    color: red; }
+    color: #fff; }
   .logo {
     font-size: 25px;
-    padding-left: 35px; }
+    padding-left: 30px; }
   ul.menuItems.show {
     padding: 0; } }
 
