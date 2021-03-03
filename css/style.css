@@ -292,4 +292,8 @@ ul.show {
     margin: 5px 0 0 0; }
   .menuItems {
     overflow: scroll;
-    height: calc(100% - 65px); } }
+    height: calc(100% - 65px); }
+  .show {
+    height: 200px; }
+  .contacto {
+    height: auto; } }

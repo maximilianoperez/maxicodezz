@@ -129,13 +129,19 @@
   }
 
   @media screen and (max-width: 899px) and (orientation: landscape) {
-  .menuItems li {
-    margin: 5px 0 0 0;
-  }
-  .menuItems {
-    overflow: scroll;
-    height: calc(100% - 65px);
-  }
+    .menuItems li {
+      margin: 5px 0 0 0;
+    }
+    .menuItems {
+      overflow: scroll;
+      height: calc(100% - 65px);
+    }
+    .show {
+      height: 200px;
+    }
+    .contacto {
+      height: auto;
+    }
 }
 
 
